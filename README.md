@@ -1,9 +1,5 @@
-        
-        markdown
-        
-    
-  
-      # Neural Network Stability Analysis
+```markdown
+# Neural Network Stability Analysis
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -29,36 +25,17 @@ Key analyses included:
 git clone https://github.com/hossein-noorollahi/Neural-Stability-Analysis.git
 cd Neural-Stability-Analysis
 pip install -r requirements.txt
-    
-    
-  
-  
-Running the Analysis
+```
 
-        
-        bash
-        
-    
-  
-      python Simulation.py
-    
-    
-  
-  
+### Running the Analysis
+```bash
+python Simulation.py
+```
+
 The script will automatically download the MNIST dataset (if not present locally), train the model, perform the perturbation analysis, and generate the following plots:
+*	Sensitivity_Analysis.png: Accuracy vs. Noise Standard Deviation.
+*	Recovery_Cost.png: Retraining trajectory comparing perturbed vs. baseline models.
 
-
-Sensitivity_Analysis.png: Accuracy vs. Noise Standard Deviation.
-
-Recovery_Cost.png: Retraining trajectory comparing perturbed vs. baseline models.
-
-
-📄 License
-
+### 📄 License
 This project is open-source and available under the MIT License.
-
-    
-    
-  
-  
-
+```
